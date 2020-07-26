@@ -48,21 +48,25 @@ export default class SpecialDeals extends React.Component {
             <View style={{ flex: 1, flexDirection:'column'}}>
                 <View style={{height:50, flexDirection:'row'}}>
                     <View style={{ flex:1, justifyContent:'center'}}>
-                        <Text style={{marginLeft:20, color:'#4d4b48',fontFamily:'Antonio-Bold'}}>Special Deals !</Text>
+                        <Text style={{marginLeft:20, color:'#4d4b48',fontFamily:'Antonio-Reguler'}}>Special Deals !</Text>
                     </View>
                     <View style={{flex:1, justifyContent:'flex-end', flexDirection:'row', alignItems:'center'}}>
                         <TouchableOpacity style={{marginRight:20}}>
-                            <Text style={{color:'#d10442'}}>Lihat Semua</Text>
+                            <Text style={{color:'#d10442', fontFamily:'Antonio-Regular'}}>Lihat Semua</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
                 <View style={{ flex:1}}>
-                   <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={{paddingLeft:10.5}}>
-                        <Item></Item>
-                        <Item></Item>
-                        <Item></Item>
-                        <Item></Item>
-                        <Item></Item>
+                   <ScrollView horizontal={true} showsHorizontalScrollIndicator={false} style={{padding:10}}>
+                    <View style={{marginRight:10}}>
+                            <Item></Item>
+                    </View>
+                    <View style={{marginRight:10}}>
+                            <Item></Item>
+                    </View>
+                    <View style={{marginRight:10}}>
+                            <Item></Item>
+                    </View>
                     </ScrollView>
                 </View>
                 
